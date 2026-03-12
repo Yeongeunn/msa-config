@@ -1,0 +1,13 @@
+server:
+  port: 0
+
+spring:
+  application:
+    name: user-service
+  data:
+    redis:
+      host: redis-service
+      port: 6379
+
+jwt:
+  secret: jslim-super-secret-key-for-jwt-123456789

@@ -1,0 +1,11 @@
+server:
+  port: 0
+
+spring:
+  application:
+    name: product-service
+  kafka:
+    kafka-server: kafka-service:9092
+    consumer:
+      group-id: product-group
+      auto-offset-reset: earliest

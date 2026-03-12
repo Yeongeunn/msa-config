@@ -2,7 +2,6 @@ spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mariadb://eunna-db.ch6w0ggq29jc.us-west-2.rds.amazonaws.com:3306/inspire?useSSL=true&trustServerCertificate=true
-    username: root
     username: admin
     password: 123456789
   jpa:
